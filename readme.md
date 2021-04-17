@@ -1,6 +1,7 @@
 # JSON2SVG
 This script helps to convert JSON representation of a linechart to SVG format. 
-Currently only supports JSON where the x/y values are assigned to keys 't' (time) and 'v' (value).
+Currently only supports JSON where the x/y values are assigned to keys 't' (time) and 'v' (value) 
+as this was originally written to convert Glassnode Studio's charts (but is easily modifiable).
 
 ## Guide
 1. Clone the project
