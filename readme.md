@@ -7,11 +7,7 @@ as this was originally written to convert Glassnode Studio's charts (but is easi
 1. Clone the project
 2. Install Python
     * Python: https://www.python.org/downloads/
-    * verify installation `python --version`
-3. Install pip
-    * pip: https://bootstrap.pypa.io/get-pip.py
-    * install: `python get-pip.py`
-    * verify installation: `pip -V`    
+    * verify installation `python --version`  
 3. Install the dependencies from the project folder: `pip install -r requirements.txt`
 4. Run the script: `python json2svg.py pathToJson`
     * use _-d_ parameter to turn on debugging log level: `python json2svg.py pathToFile -d`
